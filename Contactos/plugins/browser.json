@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "xyz.easysoftmx.contacts"
+        }
+    }
+}
