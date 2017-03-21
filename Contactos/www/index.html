@@ -10,13 +10,21 @@
     <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
    
 <script>
-	 document.addEventListener("deviceready", onDeviceReady, false);
-    function onDeviceReady() {
-        var myContact = navigator.contacts.create({"displayName": "Test User"});
-        myContact.note = "This contact has a note.";
-        myContact.save(function(){alert("success")},function(){alert("error")});
-        console.log("The contact, " + myContact.displayName + ", note: " + myContact.note);
+	
+    función onSuccess(contacts) {
+	for(var = 0; < contacts.length; i ++) 
+	{
+	alert ("formateada:" + contacts[i].name.formatted + "\n" + "Apellido:" + contacts[i].name.familyName + "\n" + "nombre:" + contacts[i].name.givenName + "\n" + "segundo nombre:" + contacts[i].name.middleName + "\n" + "sufijo:" + contacts[i].name.honorificSuffix + "\n" + "prefijo:" + contacts[i].name.honorificSuffix);
     }
+    };
+    
+    function onError(contactError) {alert('onError!');};
+    
+    var opciones = new ContactFindOptions();
+    options.Filter = "";
+    filtro = ["displayName", "nombre"];
+    Navigator.contacts.Find (filtro, onSuccess, onError, opciones);
+    
 	</script>
 	
     <link rel="stylesheet" type="text/css" href="css/index.css" />
@@ -30,6 +38,7 @@
             <p class="event listening">Connecting to Device</p>
             <p class="event received">Device is Ready</p>
         </div>
+		
 		<h1>Example</h1>
     <p>Create Contact---
       Check the contact list, a contact named Test User must be created </p>
